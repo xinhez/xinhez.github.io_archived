@@ -19,8 +19,6 @@ body > #root > div {
   background-color: #616161;
   height: 4vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .App-footer {
@@ -42,16 +40,21 @@ body > #root > div {
   justify-content: center;
 }
 
+.App-link {
+  float: left;
+  padding-top: 0.75vh;
+  padding-left: 1vh;
+  vertical-align: middle;
+}
+
 .App-icon {
   animation: App-icon-spin infinite 20s linear;
-  height: 3vh;
-  pointer-events: none;
+  height: 2.5vh;
 }
 
 .App-react-logo {
   animation: App-icon-spin infinite 20s linear;
   height: 2vh;
-  pointer-events: none;
 }
 
 @keyframes App-icon-spin {
