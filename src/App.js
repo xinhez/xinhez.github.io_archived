@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import iconXZ from './img/icon_xz.png'
+import reactLogo from './img/react_logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={iconXZ} className="App-icon" alt="logo" />
       </header>
+      <footer className="App-footer">
+        Powered By
+          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
+            <img src={reactLogo} className="App-react-logo" alt="logo" />
+          </a>
+      </footer>
     </div>
   );
 }
