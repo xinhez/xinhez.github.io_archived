@@ -1,0 +1,57 @@
+
+
+.App-header {
+  /* stick header to the top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  /* text style */
+  font-size: 18px;
+  color: white;
+  vertical-align: middle;
+
+  /* viewport dimension and alignment */
+  background-color: #616161;
+  height: 4vh;
+  display: flex;
+}
+
+.App-body {
+  display: flex;
+}
+
+.App-footer {
+  /* stick footer to the bottom */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* text style */
+  font-size: 12px;
+  color: white;
+
+  /* viewport dimension and alignment */
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+<script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>

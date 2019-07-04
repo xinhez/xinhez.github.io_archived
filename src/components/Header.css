@@ -1,0 +1,39 @@
+.Header {
+  /* text style */
+  font-size: 18px;
+  color: white;
+  align-items: center;
+
+  /* viewport dimension and alignment */
+  background-color: #616161;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Header a {
+  color: white;
+  text-decoration: none;
+  padding: 23px;
+}
+
+.Header a:hover {
+  color:orange;
+}
+
+.Header-link {
+  float: left;
+  padding-top: 0.75vh;
+  padding-left: 1vh;
+  vertical-align: middle;
+}
+
+.Header-tab {
+  list-style-type:none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

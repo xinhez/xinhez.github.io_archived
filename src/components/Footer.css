@@ -1,0 +1,14 @@
+.Footer {
+  background: #424242;
+  
+  /* text style */
+  font-size: 12px;
+  color: white;
+
+  /* viewport dimension and alignment */
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
