@@ -6,7 +6,7 @@ class Cover extends Component {
   render() {
     return (
       <div className="Cover">
-        <img src={background} className="Cover-img" alt="logo" />
+        <img src={background} className="Cover-img" alt="background" />
         <div className="Cover-text">
           <h1>
             I'm Xinhe Zhang.
