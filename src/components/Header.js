@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import iconXZ from '../img/icon_xz.png'
 import "./Header.css";
 
 class Header extends Component {
@@ -13,7 +12,7 @@ class Header extends Component {
       } else {
         header.classList.remove("sticky-top");
       }
-    }.bind(this));
+    });
   }
 
   render() {
