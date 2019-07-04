@@ -1,6 +1,6 @@
 .icon {
   animation: icon-spin infinite 20s linear;
-  height: 2.5vh;
+  height: 2vh;
 }
 
 @keyframes icon-spin {

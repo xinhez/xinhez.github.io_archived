@@ -1,6 +1,6 @@
 .Header {
   /* text style */
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   align-items: center;
 
@@ -14,7 +14,7 @@
 .Header a {
   color: white;
   text-decoration: none;
-  padding: 23px;
+  padding: 5px;
 }
 
 .Header a:hover {
