@@ -1,4 +1,5 @@
 import React from 'react';
+import info from './img/info.JPG';
 import './App.css';
 
 import Cover from './components/Cover';
@@ -12,6 +13,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+      <div className="App-background" >
+        <img src={info} alt="background" />
+      </div>
       <Cover />
       <Header />
       <About />

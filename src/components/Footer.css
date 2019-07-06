@@ -6,12 +6,10 @@
   color: white;
 
   /* viewport dimension and alignment */
-  height: 3vh;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;    
-  position: fixed;
-  bottom: 0;
+  justify-content: center;
   width: 100vw;
 }

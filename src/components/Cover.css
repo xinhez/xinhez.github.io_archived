@@ -4,6 +4,8 @@
   background: #424242;
   text-align: center;
   color:white;
+
+  z-index: 0;
 }
 
 .Cover-img {

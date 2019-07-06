@@ -4,7 +4,7 @@ import "./Experience.css";
 class Experience extends Component {
   render() {
     return (
-      <div id="experience" className="section">
+      <div id="experience" className="Experience section">
         Experience
       </div>
     );

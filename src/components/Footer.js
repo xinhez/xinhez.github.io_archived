@@ -6,9 +6,9 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        Powered By
-          <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-          <img src={reactLogo} className="icon" alt="logo" />
+        Last edit on 07/04/2019. Powered By
+        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
+          <img src={reactLogo} className="icon icon-animate" alt="logo" />
         </a>
       </div>
     );

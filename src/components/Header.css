@@ -9,6 +9,7 @@
   height: 4vh;
   display: flex;
   flex-direction: row;
+  z-index: 1;
 }
 
 .Header a {
