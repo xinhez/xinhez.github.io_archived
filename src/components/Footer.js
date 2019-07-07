@@ -6,11 +6,19 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        Last edit on 07/07/2019. Powered By
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-          <img src={reactLogo} className="icon icon-animate" alt="logo" />
-        </a>
-      </div>
+        <p>Last edit on 07/07/2019.</p>
+
+        <p>
+          Email: <a href="mailto:xinhez@andrew.cmu.edu">xinhez@andrew.cmu.edu</a>
+        </p>
+
+        <p className="flex-row">
+          Powered by
+          <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
+            <img src={reactLogo} className="icon icon-animate" alt="logo" />
+          </a>
+        </p>
+      </div >
     );
   }
 }
