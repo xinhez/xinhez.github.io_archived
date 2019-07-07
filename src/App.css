@@ -1,5 +1,5 @@
 .icon {
-  height: 2vh;
+  height: 3vh;
 }
 
 .icon-animate {
@@ -19,10 +19,14 @@
   padding-left: 60px;
   padding-right: 30px;
   padding-bottom: 30px;
+  text-align: start;
 }
 
 .section {
   padding: 60px;
+  display: flex;
+  flex-direction: row;
+  z-index: 0;
 }
 
 .sticky-top {
@@ -38,5 +42,7 @@
 @media only screen and (max-width:800px) {
   .section {
     padding: 30px;
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -1,8 +1,5 @@
 .Experience {
   background: #424242;
-  display: flex;
-  flex-direction: row;
-  z-index: 0;
   color:white;
 }
 
@@ -26,14 +23,10 @@
 }
 
 @media only screen and (max-width:800px) {
-  .Experience {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .Experience h1 {
     padding-left: 20px;
     padding-right: 20px;
-    text-align: start;
+    text-align: center;
+    margin-bottom: 0;
   }
 }

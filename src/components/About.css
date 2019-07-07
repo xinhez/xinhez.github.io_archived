@@ -1,9 +1,6 @@
 .About {
   background: #424242;
   color: white;
-  display: flex;
-  flex-direction: row;
-  z-index: 0;
 }
 
 .About img {
@@ -24,11 +21,6 @@
 }
 
 @media only screen and (max-width:800px) {
-  .About {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .About img {
     margin-top: 30px;
   }
