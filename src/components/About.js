@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import profile from '../img/profile.JPG';
+import profile from '../img/profile.jpg';
 import "./About.css";
 
 class About extends Component {
   render() {
     return (
-      <div id="about" className="About">
+      <div id="about" className="About section">
         <img src={profile} alt="profile" />
-        <div className="About-column">
+        <div className="column">
           <h3>Chapter Three | August 2019 - Current</h3>
           <h4>(Time for some more Data and Science.)</h4>
-          <p>I decided to go back to CMU to pursue an M.S. in ECE degree. Enrolled in many courses on Machine Learning, Data Science, and Entrepreneurship. </p>
+          <p>I decided to go back to school. Enrolled in many courses on Machine Learning, Data Science, and Entrepreneurship. </p>
           <h3>Chapter Two | August 2014 - August 2019</h3>
           <h4>(I became a full-stack engineer.)</h4>
           <p>Turns out I was interested in web development, signal processing, and machine learning. I am grateful to have the opportunities to work full-time for some most awesome companies as a software engineer, as well as research on some interesting problems of machine learning.</p>

@@ -1,0 +1,51 @@
+.Education {
+  color: #616161;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.Education h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #F57C00;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: end;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.Education h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+}
+
+.Education h3 {
+  color: #757575;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+}
+
+.Education-background {    
+  opacity: .3;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+  top: 0;
+}
+
+.Education-background img {    
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width:800px) {
+  .Education h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: start;
+  }
+}

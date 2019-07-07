@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div id="projects" className="Projects section">
-        Projects
+        <h1>Projects</h1>
       </div>
     );
   }
