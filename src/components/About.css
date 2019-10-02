@@ -20,6 +20,10 @@
   padding-top: 30px;
 }
 
+.About a {
+  color: white;
+}
+
 @media only screen and (max-width:800px) {
   .About img {
     margin-top: 30px;
