@@ -4,9 +4,13 @@ import "./Footer.css";
 
 class Footer extends Component {
   render() {
+    let newDate = new Date()
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
     return (
       <div className="Footer">
-        <p>Last edit on 07/07/2019.</p>
+        <p>Last edit on {month}/{date}/{year}.</p>
 
         <p>
           Email: <a href="mailto:xinhez@andrew.cmu.edu">xinhez@andrew.cmu.edu</a>
