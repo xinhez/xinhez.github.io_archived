@@ -1,0 +1,1842 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>10-703 Deep RL | Schedule</title>
+  <meta name="description" content="10-703 - Deep Reinforcement Learning and Control - Carnegie Mellon University - Fall 2020
+">
+
+  <link rel="shortcut icon" href="/fall20_10703website/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/fall20_10703website/assets/css/main.css">
+  <link rel="canonical" href="/fall20_10703website/lectures/">
+
+  
+  <!-- Load Latex JS -->
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.component.js"></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <span class="site-title">
+      <a class="page-link" href="https://cmudeeprl.github.io/fall20_10703website/">10-703 Deep RL</a>
+    </span>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <a class="page-link" href="/fall20_10703website/logistics/">Logistics</a>
+        <a class="page-link" href="/fall20_10703website/lectures/">Lectures</a>
+        <!-- <a class="page-link" href="/fall20_10703website/calendar/">Calendar</a> -->
+        <a class="page-link" href="/fall20_10703website/homework/">Homework</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Schedule</h1>
+    <h2 class="post-description"></h2>
+  </header>
+
+  <article class="post-content Schedule clearfix">
+    <table class="table table-hover">
+      <colgroup>
+        <col style="width:5%">
+        <col style="width:35%">
+        <col style="width:45%">
+        <col style="width:15%">
+      </colgroup>
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Lecture</th>
+          <th scope="col">Readings</th>
+          <th scope="col">Logistics</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+<tr class="warning">
+    <th scope="row">M 08/31</th>
+    
+    <td>
+        Lecture #1
+        :
+        <br />
+        <strong>Introduction to Reinforcement Learning and Representation Learning</strong>
+
+        <br />
+        [
+            
+              slides
+            
+         
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch1</li>
+        
+            <li>Smith &amp; Gasser. <a href="http://cogs.indiana.edu/~cogdev/labwork/6_lessons.pdf" target="_blank">The Development of Embodied Cognition - Six Lessons from Babies</a></li>
+            other resources:  <li>Dan Wolpert't talk <a href="https://www.ted.com/talks/daniel_wolpert_the_real_reason_for_brains/transcript?language=en#t-1117820" target="_blank">The real reason for brains</a></li>
+        
+        
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 09/02</th>
+    
+    <td>
+        Lecture #2
+        :
+        <br />
+        <strong>Exploration-exploitation in multi-armed bandits</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+         
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch2 2.1 - 2.7</li>
+        
+            <li>Russo et al. <a href="https://arxiv.org/abs/1707.02038" target="_blank">A Tutorial on Thompson Sampling</a></li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 09/04</th>
+    
+    <td>
+        Lecture #3
+        :
+        <br />
+        <strong>REC: CNNs, RNNs, Tensorflow</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="https://www.deeplearningbook.org/" target="_blank">GBC Textbook</a>, Ch9, Ch10</li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 09/07</th>
+    
+    
+    <td colspan="4" align="center"><strong> Labor day - No classes </strong>
+</td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 09/09</th>
+    
+    <td>
+        Lecture #4
+        :
+        <br />
+        <strong>Exploration-exploitation in experimental design, Bayesian optimization with Gaussian Processes</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+          <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch4 Section 2.1-2.8</li>
+        
+            <li><reading class="important">Rasmussen &amp; Williams <a href="http://www.gaussianprocess.org/gpml/chapters/RW.pdf" target="_blank">Gaussian Processes for Machine Learning</a> Chapter 1,2 </reading></li>
+        
+            <li><reading class="important">Brochu et. al <a href="https://arxiv.org/pdf/1012.2599.pdf" target="_blank">A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning</a> Sections 1, 2.1, 2.2 </reading></li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 09/11</th>
+    
+    <td>
+        Lecture #5
+        :
+        <br />
+        <strong>REC: Gaussian Processes</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 09/14</th>
+    
+    <td>
+        Lecture #6
+        :
+        <br />
+           <strong>Evolutionary methods for policy search</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+               
+        <ul>
+        
+            <li>Nikolaus Hansen. <a href="https://arxiv.org/pdf/1604.00772.pdf" target="_blank">The CMA Evolution Strategy - A Tutorial</a></li>
+        
+            <li><reading class="important">Salimans et al. <a href="https://arxiv.org/abs/1703.03864" target="_blank">Evolution Strategies as a Scalable Alternative to Reinforcement Learning</a></reading></li>
+        
+   
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 09/16</th>
+    
+    <td>
+        Lecture #7
+        :
+        <br />
+        <strong>Evolution + Bayesian optimization for Diverse Policy Search</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><reading class="important">Mouret and Clune <a href="https://arxiv.org/abs/1504.04909" target="_blank">Illuminating search spaces by mapping elites</a></reading></li>
+        
+            <li><reading class="important">Cully et al. <a href="https://arxiv.org/abs/1407.3501" target="_blank">Robots that can adapt like animals</a></reading></li>
+        
+            <li>Wang et al. <a href="https://arxiv.org/abs/1901.01753" target="_blank">Paired Open-Ended Trailblazer (POET)&#58; Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions</a></li>
+        
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p><span class="event">HW1 out</span> <br /></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 09/18</th>
+    
+    <td>
+        Lecture #8
+        :
+        <br />
+        <strong>REC: HW1</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 09/21</th>
+    
+    <td>
+        Lecture #9
+        :
+        <br />
+        <strong>Imitation learning with Behaviour Cloning</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li>Bagnell. <a href="http://www.ri.cmu.edu/publication_view.html?pub_id=7891" target="_blank">An Invitation to Imitation</a></li>
+        
+            <li><reading class="important">Bojarski et al. <a href="https://arxiv.org/abs/1604.07316" target="_blank">End to End Learning for Self-Driving Cars</a></reading></li>
+        
+            <li> Bansal et al. <a href="https://arxiv.org/abs/1812.03079" target="_blank">ChauffeurNet&#58; Learning to Drive by Imitating the Best and Synthesizing the Worst</a></li>
+            
+       
+
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 09/23</th>
+    
+    <td>
+        Lecture #10
+        :
+        <br />
+        <strong> Self-supervising visual feature representations for policy learning</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+ 
+    <li>Florence et al. <a href="https://arxiv.org/pdf/1909.06933.pdf.pdf" target="_blank">Self-Supervised Correspondence in Visuomotor Policy Learning</a></li>
+        
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 09/25</th>
+    
+    <td>
+        Lecture #11
+        :
+        <br />
+        <strong>REC: </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="upcoming">
+    <th scope="row">M 09/28</th>
+    
+    <td>
+        Lecture #12
+        :
+        <br />
+        <strong>Imitation Learning (cont.) </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+                  <li>Ho et al. <a href="https://cs.stanford.edu/~ermon/papers/imitation_nips2016_main.pdf" target="_blank">Generative Adversarial Imitation Learning</a></li>
+                  <li>Lynch et al. <a href="https://arxiv.org/pdf/1903.01973.pdf" target="_blank">Learning Latent Plans from Play</a></li>
+                   <li>Ding et al. <a href="https://arxiv.org/pdf/1906.05838.pdf" target="_blank">Goal-conditioned Imitation Learning</a></li>
+              
+                    Background material :
+                                  <li><a href="https://www.deeplearningbook.org/" target="_blank">Goodfellow, Bengio, and Courville</a>, Ch20</li>
+            <li>Goodfellow et al. <a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf" target="_blank">Generative Adversarial Nets</a></li>
+        
+            <li><reading class="important">Doersch et al. <a href="https://arxiv.org/pdf/1606.05908.pdf" target="_blank">Tutorial on Variational Autoencoders</a></reading></li>
+        
+        </ul>
+        
+    </td>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 09/30</th>
+    
+    <td>
+        Lecture #13
+        :
+        <br />
+        <strong> What if states are few, we know which state we are in, and the world model is known? Dynamic programming for Policy Search </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch3, Ch4</li>
+              <li><a href="https://distill.pub/2019/paths-perspective-on-value-learning/" target="_blank">S The Paths Perspective on Value Learning  </a> (blogpost) </li>
+
+            
+            
+            
+        
+        </ul>
+
+           <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 10/02</th>
+    
+    <td>
+     
+
+         <td colspan="4" align="center"><strong>Quiz 1 (online)</strong>
+       <!-- <strong> Quiz 2 (online) </strong> -->
+
+        <br />
+
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        <p><span class="deadline">HW1 due 10/05 11:59pm</span> <span class="event">HW2 out</span> <br /></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 10/05</th>
+    
+    <td>
+        Lecture #15
+        :
+        <br />
+      
+           <strong> What if states are few and  we know which state we are in? Monte Carlo  Learning and Temporal Difference Learning  Policy Search </strong>
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch5, Ch6</li>
+        
+        </ul>
+
+              
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 10/07</th>
+    
+    <td>
+        Lecture #16
+        :
+        <br />
+        
+        
+          <strong>What if we know which state we are in, states are many,  and the world model is known? Planning and Monte Carlo  Tree Search </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+             <ul>
+        
+            <li><a href="https://statweb.stanford.edu/~owen/mc/Ch-var-is.pdf" target="_blank">Monte Carlo Theory</a>, 9.1, 9.2</li>
+        
+            <li><reading class="important">Guo et al. <a href="https://papers.nips.cc/paper/5421-deep-learning-for-real-time-atari-game-play-using-offline-monte-carlo-tree-search-planning" target="_blank">Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning</a></reading></li>
+        
+        </ul>        
+        
+        
+             
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 10/09</th>
+    
+    <td>
+        Lecture #17
+        :
+        <br />
+        <strong>REC: Policy and Value Iterations</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 10/12</th>
+    
+    <td>
+        Lecture #18
+        :
+        <br />
+      
+        <strong> What if states are infinite and we do not know or wish to estimate the world model? Deep Q-learning, Deep SARSA </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch 7 (7.1-7.3), Ch 9 (9.1-9.3), Ch 10 (10.1-10.2)</li>
+        
+            <li><reading class="important">Mnih et al. <a href="https://arxiv.org/pdf/1312.5602.pdf" target="_blank">Playing Atari with Deep Reinforcement Learning</a></reading></li>
+               <li><reading class="important">Guo et al. <a href="https://papers.nips.cc/paper/5421-deep-learning-for-real-time-atari-game-play-using-offline-monte-carlo-tree-search-planning" target="_blank">Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning</a></reading></li>
+
+        
+            <li>Hasselt et al. <a href="https://arxiv.org/abs/1509.06461" target="_blank">Deep Reinforcement Learning with Double Q-learning</a></li>
+        
+            <li>Shaul et al. <a href="https://arxiv.org/abs/1511.05952" target="_blank">Prioritized Experience Replay</a></li>
+                      <li><reading class="important">Fujimoto et al. <a href="https://arxiv.org/abs/1812.02900" target="_blank">Off-Policy Deep Reinforcement Learning without Exploration</a></reading></li>
+        
+            <li>Hester et al. <a href="https://arxiv.org/abs/1704.03732" target="_blank">Deep Q-learning from Demonstrations</a></li>
+        
+         <li>Mandlekar et al. <a href="https://arxiv.org/pdf/1911.05321.pdf" target="_blank">IRIS: Implicit Reinforcement without Interaction at Scale for Learning Control from Offline Robot Manipulation Data</a></li>
+        
+        
+        </ul>
+
+      
+      
+      
+      
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 10/14</th>
+    
+    <td>
+        Lecture #19
+        :
+        <br />
+      
+      
+         <strong> Short term policy exploration and improvement: REINFORCE, Actor-Critic, Natural PG  </strong>
+
+        <br />
+        [
+            
+              slides
+
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+           <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch13</li>
+        
+            <li>Mnih et al. <a href="https://arxiv.org/abs/1602.01783" target="_blank">Asynchronous Methods for Deep Reinforcement Learning</a></li>
+            
+            
+                  <li>Fujimoto et al. <a href="https://arxiv.org/abs/1802.09477" target="_blank">Addressing Function Approximation Error in Actor-Critic Methods</a></li>
+            <li>Schulman et al. <a href="https://arxiv.org/abs/1707.06347" target="_blank">Proximal Policy Optimization Algorithms</a></li>
+        
+            <li>Wu et al. <a href="https://papers.nips.cc/paper/7112-scalable-trust-region-method-for-deep-reinforcement-learning-using-kronecker-factored-approximation.pdf" target="_blank">Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation</a></li>
+            
+        
+        
+        
+        </ul>
+
+      
+      
+              
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 10/16</th>
+    
+    
+    <td colspan="4" align="center"><strong> Community Engagement Day - No classes </strong>
+</td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 10/19</th>
+    
+    <td>
+        Lecture #20
+        :
+        <br />
+     
+        <strong> Short term policy exploration and imporvement:  Deterministic PG, MaxEnt RL   </strong>
+
+        <br />
+        [
+            
+              slides
+
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+      
+            
+              <li>Lillicrap et al. <a href="https://arxiv.org/abs/1509.02971" target="_blank">Continuous control with deep reinforcement learning</a></li>
+                        <li>Haarnoja et al. <a href="https://arxiv.org/abs/1812.05905" target="_blank">Soft Actor-Critic Algorithms and Applications</a></li>
+
+        
+        
+        </ul>
+
+     
+     
+     
+             
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+
+<tr class="upcoming">
+    <th scope="row">W 10/21</th>
+    
+    <td>
+        Lecture #21
+        :
+        <br />
+        
+        
+        
+   
+      <strong>Intelligent exploration: short and long term curiosity / mapping</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+         <li><reading class="important">Osband et al. <a href="https://arxiv.org/abs/1602.04621" target="_blank">Deep Exploration via Bootstrapped DQN</a></reading></li>
+        
+                 <li><reading class="important">Pathak et al. <a href="https://pathak22.github.io/noreward-rl/resources/icml17.pdf" target="_blank">Curiosity-driven Exploration by Self-supervised Prediction</a></reading></li>
+            
+                <li>Pathak et al. <a href="https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf" target="_blank">Large-Scale Study of Curiosity-Driven Learning</a></li>
+        
+            <li><reading class="important">Ecoffet et al. <a href="https://arxiv.org/abs/1901.10995" target="_blank">Go-Explore:a New Approach for Hard-Exploration Problems</a> </reading></li>
+        
+
+        
+            <li><reading class="important">Savinov et al. <a href="https://arxiv.org/abs/1810.02274/" target="_blank">Episodic Curiosity through Reachability</a></reading></li>
+             
+        </ul>
+   
+   
+
+
+
+        
+    </td>
+    <td>
+        <p><span class="deadline">HW2 due</span> <br /> <span class="event">HW3 out</span></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 10/23</th>
+    
+    
+    <td colspan="4" align="center"><strong>Mid Semester Break - No classes</strong>
+</td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 10/26</th>
+    
+    <td>
+        Lecture #22
+        :
+        <br />
+        
+        
+        
+
+        <strong>MCTS with prior knowledge</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+       
+               <li><reading class="important">Silver et al. <a href="https://deepmind.com/research/publications/mastering-game-go-deep-neural-networks-tree-search/" target="_blank">Mastering the Game of Go with Deep Neural Networks and Tree Search</a></reading></li>
+        
+            <li><reading class="important">Silver et al. <a href="https://deepmind.com/research/publications/mastering-game-go-without-human-knowledge/" target="_blank">Mastering the Game of Go without Human Knowledge</a></reading></li>
+
+         
+                 
+        </ul>
+
+
+
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 10/28</th>
+    
+    <td>
+        Lecture #23
+        :
+        <br />
+       
+        <strong>i-LQR, Divide and Conquer: imitating local controllers</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+          
+          <li>Levine et al.  <a href="https://arxiv.org/pdf/1504.00702.pdf" target="_blank">End-to-End Training of Deep Visuomotor Policies</a></li>
+        
+            <li>Ghosh et al.  <a href="https://arxiv.org/pdf/1711.09874.pdf" target="_blank">Divide and Conquer Reinforcement Learning</a></li> 
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 10/30</th>
+    
+    <td>
+        Lecture #24
+        :
+        <br />
+        <strong>REC: </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 11/02</th>
+    
+    <td>
+        Lecture #25
+        :
+        <br />
+   
+   
+      
+   
+   
+     <strong>Goal relabelling</strong>
+
+
+       </td>
+    <td>
+            <ul>
+        
+            <li><reading class="important">Andrychowicz et al. <a href="https://arxiv.org/abs/1707.01495" target="_blank">Hindsight Experience Replay</a></reading></li>
+            <li>Ding et al. <a href="https://papers.nips.cc/paper/9667-goal-conditioned-imitation-learning" target="_blank">Goal-conditioned Imitation Learning</a></li>
+                <li>Eyesenbach et al. <a href="https://arxiv.org/abs/2002.11089" target="_blank">Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement</a></li>
+
+               <li><reading class="important">Nair et al. <a href="https://arxiv.org/abs/1807.04742" target="_blank">Visual Reinforcement Learning with Imagined Goals</a></reading></li>
+               <li>Mandlekar et al. <a href="https://arxiv.org/pdf/1911.05321.pdf" target="_blank">IRIS: Implicit Reinforcement without Interaction at Scale for Learning Control from Offline Robot Manipulation Data</a></li>
+
+               
+      
+            
+
+        
+        </ul>
+        <p></p>
+    </td>
+    
+</tr>
+
+
+
+<tr class="upcoming">
+    <th scope="row">W 11/04</th>
+    
+    
+    <td colspan="4" align="center"><strong>Quiz 2 (online)</strong>
+</td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 11/06</th>
+    
+    <td>
+        Lecture #26
+        :
+        <br />
+        
+        
+           <strong>A closer look to the visual policy input</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><reading class="important">Nair et al. <a href="https://arxiv.org/abs/1807.04742" target="_blank">Visual Reinforcement Learning with Imagined Goals</a></reading></li>
+                <li>Florence et al. <a href="https://arxiv.org/pdf/1909.06933.pdf.pdf" target="_blank">Self-Supervised Correspondence in Visuomotor Policy Learning</a></li>
+        
+             <li><reading class="important">Tung et al. <a href="https://arxiv.org/abs/0" target="_blank">Visually-Grounded Library of Behaviours for Transfering Manipulation across Objects and Views</a></reading></li>
+              <li><reading class="important">Zambaldi et al. <a href="https://arxiv.org/abs/1806.01830" target="_blank">Relational Deep Reinforcement Learning</a></reading></li>
+
+            
+
+        
+        
+        </ul>
+        
+
+
+
+
+
+
+     
+        
+    </td>
+    <td>
+        <p><span class="deadline">HW3 due 11/07 11:59pm</span> <br /> <span class="event">HW4 out 11/07</span></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 11/09</th>
+    
+    <td>
+        Lecture #27
+        :
+        <br />
+       <strong>Model-based RL in low dimensional state space</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><a href="http://incompleteideas.net/book/RLbook2018.pdf" target="_blank">S &amp; B Textbook</a>, Ch1, Ch2</li>
+        
+            <li>Nagabandi et al. <a href="https://arxiv.org/abs/1708.02596" target="_blank">Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning</a></li>
+        
+            <li><reading class="important">Chua et al. <a href="https://arxiv.org/abs/1805.12114" target="_blank">Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models</a></reading></li>
+            
+                    <li>Gonzalez et al. <a href="https://arxiv.org/pdf/2002.09405.pdf" target="_blank">Learning to Simulate Complex Physics with Graph Networks</a></li>
+                 <li><reading class="important">Gonzalez et al. <a href="https://arxiv.org/pdf/1806.01242.pdf" target="_blank">Graph Networks as Learnable Physics Engines for Inference and Control</a></reading></li>
+                     <li><a href="http://snap.stanford.edu/proj/embeddings-www/" target="_blank">Tutorial - Representation Learning on Networks</a></li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 11/11</th>
+    
+    <td>
+        Lecture #28
+        :
+        <br />
+
+        <strong>Model Learning and Model-based RL in  sensory space</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><reading class="important">Oh et al. <a href="https://arxiv.org/abs/1507.08750" target="_blank">Action-Conditional Video Prediction using Deep Networks in Atari Games</a></reading></li>
+        
+            <li>Kaiser et al. <a href="https://arxiv.org/pdf/1903.00374.pdf" target="_blank">Model Based Reinforcement Learning for Atari</a></li>
+        
+        
+            <li><reading class="important">Battaglia et al. <a href="https://arxiv.org/abs/1612.00222" target="_blank">Interaction Networks for Learning about Objects, Relations and Physics</a></reading></li>
+            
+              <li>Tung et al. <a href="https://arxiv.org/pdf/0.pdf" target="_blank">View invariant neural 3D environment simulators </a></li>
+
+                <li>Oord et al. <a href="https://arxiv.org/pdf/1807.03748.pdf" target="_blank">Representation Learning with Contrastive Predictive Coding</a></li>
+        
+              
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 11/13</th>
+    
+    <td>
+        Lecture #29
+        :
+        <br />
+         <br />
+        <strong>REC: Graph neural nets, model learning</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+         
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 11/16</th>
+    
+    <td>
+        Lecture #30
+        :
+        <br />
+       
+            <strong>BUFFER</strong>
+  <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+    
+             
+        
+       
+        
+        </ul>
+
+       
+       
+               
+    </td>
+    <td>
+    
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 11/18</th>
+    
+    <td>
+        Lecture #31
+        :
+        <br />
+      <strong>Hierarchical RL</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+    
+           <li>Gupta et al. <a href="https://arxiv.org/pdf/1910.11956.pdf" target="_blank">Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning </a></li>
+              <li>Nachum et al. <a href="https://arxiv.org/pdf/1805.08296.pdf" target="_blank">Data-Efficient Hierarchical Reinforcement Learning </a></li>
+
+
+    
+        
+       
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 11/20</th>
+    
+    <td>
+        Lecture #32
+        :
+        <br />
+        
+            <strong>REC</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        
+
+
+               
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 11/23</th>
+    
+    <td>
+        Lecture #33
+        :
+        <br />
+     <strong>Learning and Planning: Temporal abstraction in model based control</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><reading class="important">Agarwal et al. <a href="https://www.cs.cmu.edu/~katef/papers/modellookahead.pdf" target="_blank">Model Learning for Look-ahead Exploration in Continuous Control </a></reading></li>
+            
+            <li>Eysenbach  et al. <a href="https://arxiv.org/abs/1906.05253" target="_blank"> Search on the Replay Buffer: Bridging Planning and Reinforcement Learning</a></li>
+        
+            <li>Co-Reyes et al. <a href="https://arxiv.org/pdf/1806.02813.pdf" target="_blank"> Self-Consistent Trajectory Autoencoder - Hierarchical Reinforcement Learning with Trajectory Embeddings</a></li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p><span class="deadline">HW4 due 11/25 11:59pm</span> <br /> <span class="event">HW5 out 11/25</span></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 11/25</th>
+    
+    
+    <td colspan="4" align="center"><strong> Thanksgiving Holiday - No classes </strong>
+</td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 11/27</th>
+    
+    
+    <td colspan="4" align="center"><strong> Thanksgiving Holiday - No classes </strong>
+</td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 11/30</th>
+    
+    <td>
+        Lecture #34
+        :
+        <br />
+        <strong>Meta-Learning,  learning to learn </strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li>Botvinick et al. <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30061-0" target="_blank">Reinforcement Learning, Fast and Slow</a></li>
+        
+            <li>Duan et al. <a href="https://arxiv.org/abs/1611.02779" target="_blank">RL2&#58; Fast Reinforcement Learning via Slow Reinforcement Learning</a></li>
+            
+              <li>Finn et al. <a href="https://arxiv.org/abs/1703.03400" target="_blank">Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks</a></li>
+
+
+  <li>Nichol and Schulman <a href="https://d4mucfpksywv.cloudfront.net/research-covers/reptile/reptile_update.pdf" target="_blank">Reptile: a Scalable Metalearning Algorithm</a></li>
+
+            
+        
+            <li>Clavera et al. <a href="https://pdfs.semanticscholar.org/39ce/85ad322571b1bdc1d79ee10b9d608960374c.pdf?_ga=2.252655307.391011989.1574704506-1067889836.1572744668" target="_blank">Learning to Adapt&#58; Meta-Learning for Model-Based Control</a></li>
+        
+        </ul>
+               
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 12/02</th>
+    
+    <td>
+        Lecture #35
+        :
+        <br />
+          <strong>Sim2Real transfer</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><reading class="important">Tobin et al. <a href="https://arxiv.org/abs/1703.06907" target="_blank">Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World</a></reading></li>
+        
+            <li><reading class="important">Muller et al. <a href="https://arxiv.org/abs/1804.09364" target="_blank">Driving Policy Transfer via Modularity and Abstraction</a></reading></li>
+        
+             <li><reading class="important">Hwanbo et al. <a href="https://arxiv.org/pdf/1901.08652.pdf" target="_blank">Learning Agile and Dynamic Motor Skills for Legged Robots</a></reading></li>
+
+    <!--        <li>Zhu et al. <a href="https://arxiv.org/abs/1703.10593" target="_blank">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks</a></li>!-->
+        
+        </ul>
+        
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 12/04</th>
+    
+    <td>
+        Lecture #36
+        :
+        <br />
+        <strong>REC</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+               
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">M 12/07</th>
+    
+    <td>
+        Lecture #37
+        :
+        <br />
+         <strong>Visual imitation learning</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li><reading class="important">Peng et al. <a href="https://arxiv.org/abs/1810.03599" target="_blank">SFV - Reinforcement Learning of Physical Skills from Videos</a></reading></li>
+        
+            <li><reading class="important">Pathak et al. <a href="https://arxiv.org/abs/1804.08606" target="_blank">Zero-Shot Visual Imitation</a></reading></li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">W 12/09</th>
+    
+    <td>
+        Lecture #38
+        :
+        <br />
+        <strong>Learning from RL and demonstrations WE SHOULD INJECT THIS ONE  RIGHT AFTER THE PG LECTURE</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+            <li>Gao et al. <a href="https://arxiv.org/abs/1802.05313" target="_blank">Reinforcement Learning from Imperfect Demonstrations</a></li>
+            
+        
+        
+            <li><reading class="important">Zhu et al. <a href="https://arxiv.org/abs/1802.09564" target="_blank">Reinforcement and Imitation Learning for Diverse Visuomotor Skills</a></reading></li>
+        
+  
+        
+            <li><reading class="important">Salimans et al. <a href="https://arxiv.org/abs/1812.03381" target="_blank">Learning Montezuma's Revenge from a Single Demonstration</a></reading></li>
+        
+        </ul>
+        
+    </td>
+    <td>
+        <p></p>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">F 12/11</th>
+    
+    <td>
+        Lecture #39
+        :
+        <br />
+        <strong>REC</strong>
+
+        <br />
+        [
+            
+              slides
+            
+            
+            
+            
+            <!-- | video -->
+            
+            
+        ]
+    </td>
+    <td>
+        
+        <ul>
+        
+               
+        </ul>
+        
+    </td>
+    <td>
+        <p><span class="deadline">HW5 due 12/11 11:59PM</span></p>
+    </td>
+    
+</tr>
+
+<tr class="past">
+    <th scope="row">TBD</th>
+    
+    <strong>Quiz 3 (online)</strong>
+
+    <td colspan="4" align="center"><strong>Quiz 3 (online)</strong>
+</td>
+    
+</tr>
+
+<tr class="info">
+    <td colspan="5" align="center"><strong></strong></td>
+</tr>
+
+
+      </tbody>
+    </table>
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Deep Reinforcement Learning</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">10-703 Staff</li><li><a class="u-email" href="mailto:ta-deeprl@lists.andrew.cmu.edu">ta-deeprl@lists.andrew.cmu.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/cmudeeprl" target="_blank"><i class="fab fa-github"></i> <span class="username">cmudeeprl</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>&copy; Copyright 2020 Carnegie Mellon University. <br />
+        Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/fall20_10703website/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.js"></script>
+<script src="/fall20_10703website/assets/js/katex.js"></script>
+
+
+
+<!-- Load Anchor JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+<script>
+  anchors.options.visible = 'hover';
+  anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>
+
+
+
+<!-- Adjust LaTeX JS -->
+<script src="/fall20_10703website/assets/js/latex.js"></script>
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/fall20_10703website/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/fall20_10703website/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
