@@ -14,7 +14,8 @@ class Education extends Component {
           <div className="column">
             <h2>Carnegie Mellon University</h2>
             <h3>M.S. in Electrical and Computer Engineering | Expected in December 2020</h3>
-            <p>Tentative schedule: Advanced Introduction to Machine Learning, Introduction to Deep Learning, Introduction to Entrepreneurship, etc.</p>
+            <h4>4.0/4.0</h4>
+            <p>Cources: Advanced Introduction to Machine Learning, Introduction to Deep Learning, Advanced Deep Learning, Probabilistic Graphical Models, Information Theory etc.</p>
 
             <h3>B.S. in Electrical and Computer Engineering | May, 2018</h3>
             <h4>3.68/4.0 with College and University Honor</h4>

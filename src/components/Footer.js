@@ -5,15 +5,15 @@ import "./Footer.css";
 class Footer extends Component {
   render() {
     let newDate = new Date()
-    let date = newDate.getDate();
-    let month = newDate.getMonth() + 1;
-    let year = newDate.getFullYear();
+    let date  = 9;
+    let month = 11;
+    let year  = 2020;
     return (
       <div className="Footer">
         <p>Last edit on {month}/{date}/{year}.</p>
 
         <p>
-          Email: <a href="mailto:xinhez@andrew.cmu.edu">xinhez@andrew.cmu.edu</a>
+          Email: <a href="mailto:xinhez96@gmail.com">xinhez96@gmail.com</a>
         </p>
 
         <p className="flex-row">
