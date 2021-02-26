@@ -4,10 +4,9 @@ import "./Footer.css";
 
 class Footer extends Component {
   render() {
-    let newDate = new Date()
-    let date  = 9;
-    let month = 11;
-    let year  = 2020;
+    let date  = '26';
+    let month = '02';
+    let year  = '2021';
     return (
       <div className="Footer">
         <p>Last edit on {month}/{date}/{year}.</p>

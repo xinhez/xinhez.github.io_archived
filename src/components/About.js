@@ -8,8 +8,8 @@ class About extends Component {
       <div id="about" className="About section">
         <img src={profile} alt="profile" />
         <div className="column">
-          <a href="https://xinhez.github.io/resume.pdf" rel="noopener noreferrer"  target="_blank">
-            <h3>View my Resume</h3></a>
+          <a href="https://xinhez.github.io/cv.pdf" rel="noopener noreferrer"  target="_blank">
+            <h3>View my CV</h3></a>
           <h3>Chapter Three | August 2019 - Current</h3>
           <h4>(Time for some more Data and Science.)</h4>
           <p>I decided to go back to school. Enrolled in many courses on Machine Learning, Data Science, and Entrepreneurship. </p>

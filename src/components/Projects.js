@@ -7,6 +7,7 @@ class Projects extends Component {
       <div id="projects" className="Projects section">
         <h1>Projects</h1>
         <div className="column">
+          <h3>Non-Invasive Transcranial Stimulation</h3>
           <h3>FiPass/Talent Pool</h3>
           <h3>Time-Space-Aware Memory for Deep Reinforcement Learning</h3>
           <h3>Diabetic Retinopathy Detection</h3>

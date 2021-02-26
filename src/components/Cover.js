@@ -12,7 +12,7 @@ class Cover extends Component {
             I'm Xinhe Zhang.
           </h1>
           <h2>
-            A CMU ECE Master student graduating in December 2020. Focusing on Machine Learning. Once a full-stack engineer.
+            Researcher @ CMU. Focusing on Neuroscience. Once a full-stack engineer.
           </h2>
         </div>
       </div>
